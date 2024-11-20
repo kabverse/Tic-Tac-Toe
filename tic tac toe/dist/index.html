@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="text-center" id="gameContainer">
+        <h1 class="text-7xl font-black m-4 sm:text-9xl">Tic Tac Toe</h1>
+        <div class="grid grid-cols-3 w-60 m-auto" id="cellContainer">
+            <div id="cells" cellIndex = "0" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "1" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "2" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "3" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "4" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "5" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "6" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "7" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+            <div id="cells" cellIndex = "8" class="text-center text-6xl w-20 h-20 border-2 border-solid border-black ring-2 ring-black"></div>
+        </div>
+        <h2 class="font-black mt-4 text-5xl" id="statusText"></h2>
+        <button id="playAgainBtn" class="font-bold text-2xl bg-red-600 text-white p-4 m-4 rounded-2xl border-2 border-red-600 border-solid duration-300 hover:bg-white hover:text-red-600 shadow-2xl hover:shadow-red-600">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
